@@ -1,4 +1,3 @@
-print("welcome!")
-name=str(input("Enter your Name:"))
-age=int(input("Enter your age:"))
-print("Hello!\n",name,"you are",age,"year old")
+num1=int(input("Enter 1 number:"))
+num2=int(input("Enter 2 number:"))
+print("Sum is:",num1+num2,"\nSubtracion is:",num1-num2,"\nmultiplication is ",num1*num2,"\nquatient is:",num1//num2)
