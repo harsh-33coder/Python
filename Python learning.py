@@ -1,5 +1,2 @@
-number=10
-decimal=3.14 
-string="Hello"
-boolen=True
-print(type(number),type(decimal),type(string),type(boolen))
+string=str(input("Enter the word:"))
+print("The length of word is",len(string))
