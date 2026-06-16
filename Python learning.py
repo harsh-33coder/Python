@@ -1,3 +1,5 @@
-C=int(input("Enter the temp in celcius:"))
-print("The temp in farahnite:",(C * 9/5) + 32)
-  
+number=10
+decimal=3.14 
+string="Hello"
+boolen=True
+print(type(number),type(decimal),type(string),type(boolen))
