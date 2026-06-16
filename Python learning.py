@@ -1,2 +1,3 @@
-num=int(input("Enter the number:"))
-print("The square of a number:",num*num,"\nThe cube of a number:",num*num*num)
+weight=float(input("Enter your weight in kg:"))
+height=float(input("Enter your height in m :  "))
+print("your BMI is:",weight /( height*height))
