@@ -1,2 +1,4 @@
-num=float(input("Enter the number:"))
-print("The square of a number",num*num,"\n The cube of number",num*num*num)
+print("welcome!")
+name=str(input("Enter your Name:"))
+age=int(input("Enter your age:"))
+print("Hello!\n",name,"you are",age,"year old")
