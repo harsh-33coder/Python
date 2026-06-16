@@ -1,6 +1,13 @@
-num1=float(input("Enter 1 number:"))
-num2=float(input("Enter 2 number:"))
-num3=float(input("Enter 3 number:"))
-num4=float(input("Enter 4 number:"))
-num5=float(input("Enter 5 number:"))
-print("average of five number:",(num1+num2+num3+num4+num5)/5)
+import math
+
+print("This is applicable only for a right-angled triangle")
+
+# Get user inputs  
+hgh = float(input("Enter height of triangle: "))
+bse = float(input("Enter base of triangle: "))
+
+# Calculate hypotenuse using the Pythagorean theorem
+hypotenuse = math.sqrt(hgh**2 + bse**2)
+
+print("The hypotenuse of the triangle is:", hypotenuse)
+  
